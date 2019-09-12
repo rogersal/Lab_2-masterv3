@@ -5,5 +5,6 @@ public class CakeModel {
     public int NumCandles = 2;
     public boolean hasFrosting = true;
     public boolean hasCandles = true;
-    private 
+    private CakeView cakeModelOBJ;
+
 }

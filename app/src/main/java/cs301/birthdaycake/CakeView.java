@@ -33,7 +33,7 @@ public class CakeView extends SurfaceView {
     public static final float wickWidth = 6.0f;
     public static final float outerFlameRadius = 30.0f;
     public static final float innerFlameRadius = 15.0f;
-
+    private CakeModel getCake;
 
 
     /**
@@ -85,6 +85,10 @@ public class CakeView extends SurfaceView {
         float wickTop = bottom - wickHeight - candleHeight;
         canvas.drawRect(wickLeft, wickTop, wickLeft + wickWidth, wickTop + wickHeight, wickPaint);
 
+    }
+    public CakeModel getCakeModel(){
+
+        return getCake;
     }
 
     /**
